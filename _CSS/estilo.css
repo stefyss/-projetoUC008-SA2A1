@@ -1,0 +1,65 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+
+
+section .logo{
+
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+  background-color: teal;
+}
+
+section .cabecalho{
+    grid-column: 2/span 3;
+    grid-row: 1;
+    background-color: teal;
+}
+
+section .busca{
+    grid-column: 1/span 3;
+    grid-row: 2;
+    background-color: teal;
+}
+
+section .lateral{
+    grid-column: 1/span 1;
+    grid-row: 3/span 2;
+    background-color: teal;
+}
+
+section .cont1{
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+    background-color: violet;
+}
+
+section .cont2{
+    grid-column: 3/span 1;
+    grid-row: 3/span 1;
+    background-color: violet;
+}
+
+section .cont3{
+    grid-column: 2/span 1;
+    grid-row: 4/span 1;
+    background-color: violet;
+}
+
+section .cont4{
+    grid-column: 3/span 1;
+    grid-row: 4/span 1;
+    background-color: violet;
+}
+
+section footer{
+    grid-column: 1/span 3;
+    grid-row: 5/span 1;
+    background-color:tomato;
+
+}
+
